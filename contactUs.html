@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+    form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 3px black solid;
+        width: 30%;
+        padding: 6px;
+     margin: auto;
+    }
+    input{
+        width: 200px;
+        height: 30px;
+        font-size: large;
+    }
+    label{
+font-size: large;
+    }
+
+</style>
+</head>
+<body>
+    
+    <form onsubmit="myFunction()">
+        <h1> Contact Us</h1>
+        <p>leave your details and we will contact you soon!!</p><br>
+        <label for="name">Full ame:</label><br>
+        <input type="text" required="required" pattern="[A-Za-z0-9_]{1,15}" id="name" name="name"><br>
+        <label for="company">Company:</label><br>
+        <input type="text" required="required" pattern="[A-Za-z0-9_]{1,15}" id="company" name="company"><br>
+        <label for="email">Email:</label><br>
+        <input type="text" required="required" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" id="email" name="email"><br>
+        <label for="phone">Phone Number:</label><br>
+        <input type="text" required="required" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7899" id="phone" name="phone"><br>
+        <input type="submit" value="Submit">
+      </form>
+      <script>
+function myFunction() {
+  alert("we will back to you");
+}
+          </script>
+</body>
+</html>
