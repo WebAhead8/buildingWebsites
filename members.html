@@ -1,22 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="styles.css">
+
     <style>
         body{
             text-align: center;
-            width: 500px;
             display: block;
             align-self:center;
+            background-color: gray;
         }
+        
         
         </style>
         
+<<<<<<< HEAD
+=======
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+
+<script> 
+    $(function(){
+      $("#navbar").load("navbar.html"); 
+    });
+</script>
+>>>>>>> e70e8459b21202a776acfe8c3cf55cd810dc33ce
         
 </head>
 <body>
+    <div id="navbar"></div>
     <div>
     <h1>Design Responsive Website</h1>
     <h3>Khaled Badarna</h3>
+
+    <img src="data:image/jpeg;base64,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
+    " alt="">
     <p>Are u looking for DESKTOP, MOBILE & TABLET friendly responsive and beautiful website? <br>
          You are on the Right Gig! <br>
      I am passionate and believe in best practices and modern trends in web development.<br> Your site design is the first 
@@ -25,31 +43,19 @@
      <img src="download (1).jpeg" alt="">
 
 
-     
-    <p>
-        <h1>Front End Developer Job Description</h1>
-        We are looking for programmers with a keen eye for design for the position of Front End Developer. Front end Developers are responsible for ensuring <br>
+    
+        <h1>Front End Developer</h1>
+        <h3>Hadi Moallem</h3><br><br>
+        <img width="300"  src="https://www.simplilearn.com/ice9/free_resources_article_thumb/Become_a_Front_End_Developer.jpg" alt="Italian Trulli">
+       <p> We are looking for programmers with a keen eye for design for the position of Front End Developer. Front end Developers are responsible for ensuring <br>
         the alignment of web design and user experience requirements, optimizing web pages for maximum efficiency and maintaining brand consistency across all web pages, among <br>
         other duties.Front End Developers are required to work in teams alongside Back end Developers, Graphic Designers and User Experience Designers to ensure all <br> 
         elements of web creation are consistent. This requires excellent communication and interpersonal skills.
     </p>
 
-    <img width="300"  src="https://www.simplilearn.com/ice9/free_resources_article_thumb/Become_a_Front_End_Developer.jpg" alt="Italian Trulli">
-
-    <p>
-        <h2>Front End Developer Responsibilities:</h2>
-        <ul>
-            <li>Determining the structure and design of web pages.</li>
-            <li>Ensuring user experience determines design choices.</li>
-            <li>Developing features to enhance the user experience.</li>
-            <li>Striking a balance between functional and aesthetic design.</li>
-            <li>Ensuring web design is optimized for smartphones.</li>
-            <li>Building reusable code for future use.</li>
-            <li>Optimizing web pages for maximum speed and scalability.</li>
-        </ul>
-    </p>
     
     <div><h1>BackEnd Developer</h1>
+        <h3>Ebraheem Ghantous</h3>
         <img src="me.jpg"  width="200px" alt="">
         <p> A back-end web developer is responsible for server-side web application logic and integration of the work front-end web developers do. Back-end developers usually write web services and APIs used by front-end developers and mobile application developers.</p>
         <p>The back end runs a website—the user doesn’t see it or interact with it, but it is always running in the background, delivering functionality and a desktop-like experience. Back-end developers play a critical role in web development teams, and make sure that data or services requested by the front end system or software are delivered.</p>
