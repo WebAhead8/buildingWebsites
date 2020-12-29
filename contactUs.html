@@ -10,6 +10,7 @@
         width: 30%;
         padding: 6px;
      margin: auto;
+     margin-top: 20px;
     }
     input{
         width: 200px;
@@ -19,11 +20,22 @@
     label{
 font-size: large;
     }
+    body{
+        background-color: gray;
+    }
 
 </style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+
+<script> 
+    $(function(){
+      $("#navbar").load("navbar.html"); 
+    });
+</script>
 </head>
 <body>
-    
+    <div id="navbar"></div>
     <form onsubmit="myFunction()">
         <h1> Contact Us</h1>
         <p>leave your details and we will contact you soon!!</p><br>
