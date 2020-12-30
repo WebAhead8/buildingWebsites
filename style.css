@@ -53,3 +53,14 @@ form{
                 display: block;
                 align-self:center;
             }
+
+            footer {
+                text-align: center;
+                color: black;
+             
+              }
+              footer{
+                  display: flex;
+                  justify-content: space-around;
+                  padding: 20px;
+              }
