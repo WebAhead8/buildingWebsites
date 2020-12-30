@@ -1,0 +1,55 @@
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px black solid;
+    width: 30%;
+    padding: 6px;
+ margin: auto;
+ margin-top: 20px;
+    }
+
+    input{
+        margin: 10px; 
+        width: 100%;
+        height: 30px;
+        font-size: large;
+        }
+        .contactUsLabel{
+            font-size: large;
+                }
+                body{
+                    background-color: gray;
+                }
+                .aboutUsBody{
+                    font-size: large;
+                }
+                .homeH1 {
+                    background-color: goldenrod;
+                    text-align: center;
+                }
+                .topnav {
+                    background-color:goldenrod;;
+                    overflow: hidden;
+                    display:flex;
+                    justify-content: space-around;
+                    
+                    }
+               
+                    .topnav a {
+                     float: left;
+                     color: #f2f2f2;
+                     text-align: center;
+                     height: 35px;
+                     text-decoration: none;
+                     font-size: 17px;
+               }
+               .topnav a:hover {
+                 background-color: rgb(244, 245, 237);
+                 color: black;
+               }
+               .membersBody{
+                text-align: center;
+                display: block;
+                align-self:center;
+            }
