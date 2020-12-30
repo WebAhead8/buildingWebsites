@@ -16,7 +16,7 @@
     <form onsubmit="myFunction()">
         <h1> Contact Us</h1>
         <p>leave your details and we will contact you soon!!</p><br>
-        <label class="contactUsLabel" for="name">Full ame:</label><br>
+        <label class="contactUsLabel" for="name">Full Name:</label><br>
         <input type="text" required="required" pattern="[A-Za-z0-9_]{1,15}" id="name" name="name"><br>
         <label  class="contactUsLabel" for="company">Company:</label><br>
         <input type="text" required="required" pattern="[A-Za-z0-9_]{1,15}" id="company" name="company"><br>
@@ -24,12 +24,21 @@
         <input  type="text" required="required" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" id="email" name="email"><br>
         <label  class="contactUsLabel" for="phone">Phone Number:</label><br>
         <input type="text" required="required" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7899" id="phone" name="phone"><br>
-        <input   type="submit" value="Submit">
+        <input   type="submit" class="margintheinput" value="Submit">
       </form>
       <script>
         function myFunction() {
             alert("we will back to you");
         }
         </script>
+        <hr>
+        
+    <footer>
+        <label>Location: Sakhnin, Almsaha street </label>
+
+        <label>Email: buildingwebsites@gmail.com</label>
+
+        <label>Telephone:0527812946 </label>
+    </footer>
 </body>
 </html>

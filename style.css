@@ -4,10 +4,12 @@ form{
     align-items: center;
     border: 3px black solid;
     width: 30%;
-    padding: 6px;
- margin: auto;
- margin-top: 20px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 20px;
     }
+
+    form>input:last-child{ width: 20%;}
 
     input{
         margin: 10px; 
