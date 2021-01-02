@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<link rel="stylesheet" href="style.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    
 
-<script> 
-    $(function(){
-      $("#navbar").load("navbar.html"); 
-    });
-</script>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+    <script>
+        $(function() {
+            $("#navbar").load("navbar.html");
+        });
+    </script>
 </head>
 <title>Contact Us</title>
+
 <body>
     <div id="navbar"></div>
     <form onsubmit="myFunction()">
@@ -19,21 +21,21 @@
         <p>leave your details and we will contact you soon!!</p><br>
         <label class="contactUsLabel" for="name">Full Name:</label><br>
         <input type="text" required="required" pattern="[A-Za-z0-9_]{1,15}" id="name" name="name"><br>
-        <label  class="contactUsLabel" for="company">Company:</label><br>
+        <label class="contactUsLabel" for="company">Company:</label><br>
         <input type="text" required="required" pattern="[A-Za-z0-9_]{1,15}" id="company" name="company"><br>
         <label class="contactUsLabel" for="email">Email:</label><br>
-        <input  type="text" required="required" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" id="email" name="email"><br>
-        <label  class="contactUsLabel" for="phone">Phone Number:</label><br>
+        <input type="text" required="required" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" id="email" name="email"><br>
+        <label class="contactUsLabel" for="phone">Phone Number:</label><br>
         <input type="text" required="required" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7899" id="phone" name="phone"><br>
-        <input   type="submit" class="margintheinput" value="Submit">
-      </form>
-      <script>
+        <input type="submit" class="margintheinput" value="Submit">
+    </form>
+    <script>
         function myFunction() {
             alert("we will back to you");
         }
-        </script>
-        <hr>
-        
+    </script>
+    <hr>
+
     <footer>
         <label>Location: Sakhnin, Almsaha street </label>
 
@@ -42,4 +44,5 @@
         <label>Telephone:0527812946 </label>
     </footer>
 </body>
+
 </html>
