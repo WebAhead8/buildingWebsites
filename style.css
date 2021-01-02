@@ -76,6 +76,13 @@
         padding: 20px;
     }
     
+    .hrWidth {
+        margin-left: 30%;
+        margin-right: 30%;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    
     @media screen and (max-width: 600px) {
         footer {
             flex-direction: column;
@@ -85,6 +92,10 @@
         }
         form {
             width: 80%;
+        }
+        .hrWidth {
+            margin-top: 50px;
+            margin-bottom: 50px;
         }
     }
     
